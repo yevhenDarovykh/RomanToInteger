@@ -17,3 +17,4 @@ Time complexity is O(n^2).
 Space complexity is O(1).
 ### Conclution:
 
+This is deffinately a good idea to go with this method but there is better one. I used map, but not unordered_map implementation. Took what C++ created by default. It obviously requires some additional resources to sort map. Which made my code slower. And I didn't think about just substract numbers that are smaller than next number after it. So I made a second map with all that subtraction combinations like "IV" for example. This made my code slower too because it needs extra loops to find this second map elements. If you change the code as described above, it will become most effective.
